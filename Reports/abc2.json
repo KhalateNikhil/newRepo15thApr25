@@ -1,0 +1,151 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-08-01T10:27:01.775Z",
+        "line": 11,
+        "name": "validate register page functionality",
+        "description": "",
+        "id": "test-facebook-data;validate-register-page-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7391176000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on register page",
+            "match": {
+              "location": "StepDefinition.FBSteps.user_is_on_register_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6696462800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter valid \"nikhil\",\"khalate\",\"746377\",\"nsk@123\",\"6\",\"Apr\",\"1999\",\"Male\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nikhil\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"khalate\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"746377\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"nsk@123\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"6\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"Apr\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"1999\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"Male\"",
+                  "offset": 72
+                }
+              ],
+              "location": "StepDefinition.FBSteps.user_enter_valid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-08-01T10:27:15.973Z",
+        "line": 12,
+        "name": "validate register page functionality",
+        "description": "",
+        "id": "test-facebook-data;validate-register-page-functionality;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5628253700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on register page",
+            "match": {
+              "location": "StepDefinition.FBSteps.user_is_on_register_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6773277000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter valid \"sonali\",\"khalate\",\"76779\",\"ssk@123\",\"14\",\"Mar\",\"1996\",\"Female\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sonali\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"khalate\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"76779\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"ssk@123\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"14\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"Mar\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"1996\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"Female\"",
+                  "offset": 72
+                }
+              ],
+              "location": "StepDefinition.FBSteps.user_enter_valid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Test Facebook data",
+    "description": "  //for data driven testing we need to use Scenario outline keyword here in features file",
+    "id": "test-facebook-data",
+    "keyword": "Feature",
+    "uri": "file:AllFeatureFile/FB.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="26.89">
+    <testcase classname="Test Facebook data" name="validate register page functionality" time="14.182">
+        <system-out><![CDATA[Given user is on register page..............................................passed
+When user enter valid "nikhil","khalate","746377","nsk@123","6","Apr","1999","Male".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Facebook data" name="validate register page functionality 2" time="12.402">
+        <system-out><![CDATA[Given user is on register page..............................................passed
+When user enter valid "sonali","khalate","76779","ssk@123","14","Mar","1996","Female".passed
+]]></system-out>
+    </testcase>
+</testsuite>

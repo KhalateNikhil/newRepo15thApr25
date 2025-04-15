@@ -1,0 +1,8 @@
+
+Scenario Outline: validate register page functionality                                # AllFeatureFile/FB.feature:11
+  Given user is on register page                                                      # StepDefinition.FBSteps.user_is_on_register_page()
+  When user enter valid "nikhil","khalate","746377","nsk@123","6","Apr","1999","Male" # StepDefinition.FBSteps.user_enter_valid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+
+Scenario Outline: validate register page functionality                                  # AllFeatureFile/FB.feature:12
+  Given user is on register page                                                        # StepDefinition.FBSteps.user_is_on_register_page()
+  When user enter valid "sonali","khalate","76779","ssk@123","14","Mar","1996","Female" # StepDefinition.FBSteps.user_enter_valid(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
