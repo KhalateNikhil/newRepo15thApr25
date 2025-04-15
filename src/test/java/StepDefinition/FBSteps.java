@@ -27,6 +27,7 @@ public void user_is_on_register_page()
 	 driver.manage().deleteAllCookies();
 	 driver.get("https://www.facebook.com/reg");
 	 System.out.println("RegisterPage TC created by Nikhil Tester");
+	 System.out.println("RegisterPage2 TC created by Soni Tester");
 	
     
 }
