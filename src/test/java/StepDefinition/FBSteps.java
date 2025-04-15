@@ -26,6 +26,7 @@ public void user_is_on_register_page()
 	 driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
 	 driver.manage().deleteAllCookies();
 	 driver.get("https://www.facebook.com/reg");
+	 System.out.println("RegisterPage TC created by Nikhil Tester");
 	
     
 }
