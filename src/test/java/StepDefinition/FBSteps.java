@@ -29,6 +29,7 @@ public void user_is_on_register_page()
 	 System.out.println("RegisterPage TC created by Nikhil Tester");
 	 System.out.println("RegisterPage2 TC created by Soni Tester");
 	 System.out.println("RegisterPage3 TC created by Nikhil Tester");
+	 System.out.println("RegisterPage4 TC created by Soni Tester");
 	
     
 }
